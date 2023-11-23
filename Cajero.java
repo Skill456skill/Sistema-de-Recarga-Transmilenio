@@ -185,6 +185,6 @@ class RecargaMinima {
 class CodigoAleatorio {
     public static int generarCodigo() {
         Random random = new Random();
-        return 10000 + random.nextInt(90000);
+        return 10000 + random.nextInt(90000); // Números aleatorios de 10000 a 99999
     }
 }
